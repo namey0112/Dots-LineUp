@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\da_itplus\\dots line up\\assets\\scripts\\clickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\assets\\scripts\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\assets\\scripts\\lineunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lineunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\assets\\scripts\\dotnorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dotnorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\assets\\scripts\\dotbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dotbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\assets\\scripts\\playerconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B864BC6-0248-069C-EA12-E2C04A12B1E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\GameController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T07:08:49.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LineUnit.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\LineUnit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LineUnit.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\LineUnit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LineUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T14:14:59.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClickController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\ClickController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ClickController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\ClickController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ClickController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:48:00.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerConst.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\PlayerConst.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerConst.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\PlayerConst.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerConst.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:29:13.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelData.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\LevelData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelData.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\LevelData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelData.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:50:57.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DotNorm.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\DotNorm.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DotNorm.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\DotNorm.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DotNorm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:45:26.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DotBase.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\DotBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DotBase.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\DA_ITPLUS\\Dots Line Up\\Assets\\Scripts\\DotBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DotBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:44:23.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
