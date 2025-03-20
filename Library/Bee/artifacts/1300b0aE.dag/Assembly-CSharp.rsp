@@ -370,6 +370,7 @@
 "Assets/Scripts/ClickController.cs"
 "Assets/Scripts/DotBase.cs"
 "Assets/Scripts/DotNorm.cs"
+"Assets/Scripts/FindPath.cs"
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/GameScene.cs"
 "Assets/Scripts/LevelData.cs"

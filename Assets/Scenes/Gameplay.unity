@@ -122,6 +122,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &439320097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 439320099}
+  - component: {fileID: 439320100}
+  m_Layer: 0
+  m_Name: PathFinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &439320099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439320097}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.14906505, y: 0.6969281, z: -3.0264106}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1352787241}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &439320100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439320097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cde4af6369d3fd47b8aba275f656321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 5
+  height: 5
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,6 +386,7 @@ Transform:
   m_Children:
   - {fileID: 1815742514}
   - {fileID: 2093323078}
+  - {fileID: 439320099}
   m_Father: {fileID: 1524930620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1352787242
@@ -473,8 +520,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574a70cbbeb859f4794ea23000e7f7ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   currentDot: {fileID: 0}
   lineUnit: {fileID: 1789718916521166752, guid: b4b62e90b77f8024fb9073107fc5bf1e, type: 3}
+  aStar: {fileID: 439320100}
 --- !u!4 &1815742514
 Transform:
   m_ObjectHideFlags: 0
@@ -560,16 +617,7 @@ MonoBehaviour:
       Data: 0
     - Name: 
       Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 3
       Data: 1
-    - Name: 
-      Entry: 3
-      Data: 0
     - Name: 
       Entry: 3
       Data: 0
@@ -581,10 +629,43 @@ MonoBehaviour:
       Data: 2
     - Name: 
       Entry: 3
-      Data: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 2
     - Name: 
       Entry: 3
       Data: 3
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
     - Name: 
       Entry: 3
       Data: 4
@@ -596,37 +677,103 @@ MonoBehaviour:
       Data: 0
     - Name: 
       Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 3
       Data: 0
     - Name: 
       Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 3
       Data: 0
-    - Name: 
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 3
-      Data: 2
     - Name: 
       Entry: 3
       Data: 5
     - Name: 
-      Entry: 3
-      Data: 0
+      Entry: 13
+      Data: 
     - Name: 
-      Entry: 3
-      Data: 3
+      Entry: 8
+      Data: 
+    - Name: lsObstacle
+      Entry: 7
+      Data: 1|Node[,], Assembly-CSharp
     - Name: 
-      Entry: 3
-      Data: 5
+      Entry: 12
+      Data: 25
+    - Name: ranks
+      Entry: 1
+      Data: 5|5
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -640,6 +787,7 @@ MonoBehaviour:
   - {fileID: 9053631366531690224, guid: 0e2725c9e30aa274fa4aef3b1ef007b6, type: 3}
   - {fileID: 9053631366531690224, guid: 066167bbb4720544093f5c1447c9b09c, type: 3}
   boxPrefab: {fileID: 3557610385533385473, guid: 072546e6be80f8f408e6bcb63b75eaae, type: 3}
+  aStar: {fileID: 439320100}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -12,6 +12,5 @@ public abstract class DotBase : MonoBehaviour
     protected void OnMouseDown()
     {
         ClickController.instance.HandleDotClicked(this);
-        
     }
 }
