@@ -41,11 +41,12 @@ public class ClickController : SerializedMonoBehaviour
 
                     List<Vector2Int> path = aStar.FindPath(startPos, endPos);
                     Debug.Log(path.Count);
-
+                    if (path.Count != 0)
+                    {
                     var temp = Instantiate(lineUnit);
                     temp.lineRenderer.positionCount = path.Count;
                     
-                    for (int i=0; i < temp.lineRenderer.positionCount; i++)
+                        for (int i = 0; i < temp.lineRenderer.positionCount; i++)
                     {
                         var spawnPos = new Vector3(path[i].x - 2, path[i].y, -3);
                         Debug.Log(path[i]);
